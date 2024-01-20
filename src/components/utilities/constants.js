@@ -5,7 +5,7 @@ const TEXT_CONSTANTS = {
         cognizant : {
             org: "Cognizant",
             doj: "Dec 29th, 2020",
-            doe: null,
+            doe: "I Forgot",
             role: "SFDC Intern",
             summary: "In the Salesforce (SFDC) internship at Cognizant, I gained hands-on experience and proficiency in Salesforce development, with a focus on Apex programming. Working in a dynamic environment, I honed my skills in crafting efficient and scalable solutions within the Salesforce ecosystem. This internship not only provided me with valuable insights into real-world scenarios but also equipped me with the knowledge and experience to contribute effectively to innovative projects within the Cognizant team."
         },
@@ -31,6 +31,17 @@ const TEXT_CONSTANTS = {
             summary: "In my current role, I specialize in working with legacy code within a microservices architecture, primarily focused on content management. Handling a myriad of customer enhancement requests and bugs, I navigate and improve existing systems to meet evolving needs. My responsibilities involve dissecting and enhancing the functionality of microservices, addressing customer-specific requirements, and resolving issues to ensure a seamless content management experience. Thriving in the dynamic environment of legacy code, I contribute to the ongoing evolution of our systems for enhanced customer satisfaction."
         }
 
+    },
+    social_media: {
+        linkedin: {
+            profile_url:"https://www.linkedin.com/in/utkarshsrmcem111/",
+        },
+        github: {
+            profile_url:"https://github.com/mishra2000/",
+        },
+        instagram: {
+            profile_url: "https://www.instagram.com/utkarsh_mishra_______/",
+        }
     }
 }
 
