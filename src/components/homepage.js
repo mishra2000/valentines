@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Timeline from './timeline';
 import SocialMedia from './socialMedia';
 import ShortIntro from './shortIntro';
-
+import ShowGitHubCalendar from './githubCalender';
 function Homepage() {
   return (
     <Container className='mt-4'>
@@ -20,6 +20,9 @@ function Homepage() {
         </Row>
         <Row>
             <SocialMedia></SocialMedia>
+        </Row>
+        <Row className='mt-3 mb-3'>
+            <ShowGitHubCalendar></ShowGitHubCalendar>
         </Row>
         <Row>
             <Timeline></Timeline>
