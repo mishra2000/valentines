@@ -4,7 +4,7 @@ function Timeline(){
     return (
         <div className="container mt-5 mb-5">
             <div className="row">
-                <div className="col-md-8 mx-auto">
+                <div className="col-md-12 col-lg-10 mx-auto">
                     <h4>Professional Timeline</h4>
                     <ul className="timeline">
                         <li>
