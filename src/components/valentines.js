@@ -1,6 +1,7 @@
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
 function Valentines(){
     const valentinesDayNameHash = {
         "0602": {
@@ -71,7 +72,10 @@ function Valentines(){
                 <Col className='text-center'><span>{valentinesDayNameHash[ddmm].name}</span></Col>
             </Row>
             <Row>
-                <Col className='text-center msg-text pt-1'><span></span>{valentinesDayNameHash[ddmm].message}</Col>
+                <Col className='text-center msg-text pt-1'><span>{valentinesDayNameHash[ddmm].message}</span></Col>
+            </Row>
+            <Row>
+                <Col className='text-center msg-text pt-4'><Button variant="outline-success"><a href="tel:7906916164">Wish Me</a></Button></Col>
             </Row>
         </Container>
     );
