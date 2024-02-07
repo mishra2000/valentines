@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 function CustomButton(props){
     const msg = props.msg || "Call me"
-    if (props.phone == undefined)
+    if (props.phone === undefined)
         return ""
     return (
         <Row>
