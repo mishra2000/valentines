@@ -1,12 +1,13 @@
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button';
+import CustomButton from './button';
 function Valentines(){
     const urlSearchString = window.location.search;
 
     const params = new URLSearchParams(urlSearchString);
     const phone = params.get('phone')
+    const msg = params.get('msg')
     const valentinesDayNameHash = {
         "phone": phone,
         "0602": {
@@ -79,9 +80,7 @@ function Valentines(){
             <Row>
                 <Col className='text-center msg-text pt-1'><span>{valentinesDayNameHash[ddmm].message}</span></Col>
             </Row>
-            <Row>
-                <Col className='text-center msg-text pt-4'><Button variant="outline-success"><a href={"tel:"+valentinesDayNameHash["phone"]}>Wish Me</a></Button></Col>
-            </Row>
+            <CustomButton phone={phone} msg={msg}></CustomButton>
         </Container>
     );
 }
