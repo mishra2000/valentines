@@ -3,7 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 function Valentines(){
+    const urlSearchString = window.location.search;
+
+    const params = new URLSearchParams(urlSearchString);
+    const phone = params.get('phone')
     const valentinesDayNameHash = {
+        "phone": phone,
         "0602": {
             name: "Sending u Virtual Roses",
             filepath: "images/rose.png",
@@ -75,7 +80,7 @@ function Valentines(){
                 <Col className='text-center msg-text pt-1'><span>{valentinesDayNameHash[ddmm].message}</span></Col>
             </Row>
             <Row>
-                <Col className='text-center msg-text pt-4'><Button variant="outline-success"><a href="tel:7906916164">Wish Me</a></Button></Col>
+                <Col className='text-center msg-text pt-4'><Button variant="outline-success"><a href={"tel:"+valentinesDayNameHash["phone"]}>Wish Me</a></Button></Col>
             </Row>
         </Container>
     );
