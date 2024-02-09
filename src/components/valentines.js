@@ -31,9 +31,9 @@ function Valentines(){
             message: "Do you like it dark or milky? I can definitely make an adjustment for you"
         },
         "1002": {
-            name: "Teddy Day",
-            filepath: "",
-            message: ""
+            name: "Are you my teddy?",
+            filepath: "images/teddy-12.png",
+            message: "There is only one person in the entire world who can rival teddy bears in terms of cuteness, and that person is you"
         },
         "1102": {
             name: "Promise Day",
