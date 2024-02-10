@@ -36,9 +36,9 @@ function Valentines(){
             message: "There is only one person in the entire world who can rival teddy bears in terms of cuteness, and that person is you"
         },
         "1102": {
-            name: "Promise Day",
-            filepath: "",
-            message: ""
+            name: "Mai Likh ke deta hu !!",
+            filepath: "images/promise.png",
+            message: "As long as the sun shines bright, the stars twinkle in the night, I will only be yours forever"
         },
         "1202": {
             name: "Hug Day",
