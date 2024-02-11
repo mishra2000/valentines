@@ -41,14 +41,14 @@ function Valentines(){
             message: "As long as the sun shines bright, the stars twinkle in the night, I will only be yours forever"
         },
         "1202": {
-            name: "Hug Day",
-            filepath: "",
-            message: ""
+            name: "Lag ja Galee..",
+            filepath: "images/hug.png",
+            message: "Whenever you are this far, there are the memories of the time you have hugged that brings smile on my face"
         },
         "1302": {
-            name: "Kiss Day",
-            filepath: "",
-            message: ""
+            name: "Muaaaah...",
+            filepath: "images/kiss.png",
+            message: "A tender kiss on your forehead to wake you up, a gentle kiss on your cheeks to make you happy"
         },
         "1402": {
             name: "Valentine's Day",
