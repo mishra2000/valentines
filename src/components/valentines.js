@@ -51,9 +51,9 @@ function Valentines(){
             message: "A tender kiss on your forehead to wake you up, a gentle kiss on your cheeks to make you happy"
         },
         "1402": {
-            name: "Valentine's Day",
-            filepath: "",
-            message: ""
+            name: "Happy Valentines Day !!!",
+            filepath: "images/valentines.png",
+            message: "All the measurement units in this world can fail when it comes to measuring my Love for you"
         },
 
     }
